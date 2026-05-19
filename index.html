@@ -1109,5 +1109,136 @@
     });
   </script>
 
+  <!-- ==========================================================
+       STRUCTURED DATA (Schema.org JSON-LD)
+       ========================================================== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://swcfund.com/#website",
+        "url": "https://swcfund.com",
+        "name": "Sierra West Funding",
+        "description": "Utah hard money lender providing fast, flexible loans to real estate investors since 2011.",
+        "publisher": { "@id": "https://swcfund.com/#organization" }
+      },
+      {
+        "@type": ["FinancialService", "LocalBusiness"],
+        "@id": "https://swcfund.com/#organization",
+        "name": "Sierra West Funding LLC",
+        "legalName": "Sierra West Funding LLC",
+        "url": "https://swcfund.com",
+        "logo": "https://swcfund.com/assets/logo.png",
+        "description": "Sierra West Funding provides fast, flexible hard money loans to Utah real estate investors. $480M+ funded across 1,600+ transactions since 2011. Rates: 12% / 2 points. Specializing in fix-and-flip, rehab, new construction, commercial, and land loans.",
+        "foundingDate": "2011",
+        "founder": { "@id": "https://swcfund.com/#matt-strong" },
+        "areaServed": {
+          "@type": "State",
+          "name": "Utah",
+          "sameAs": "https://en.wikipedia.org/wiki/Utah"
+        },
+        "serviceType": ["Hard Money Lending", "Private Real Estate Lending", "Fix and Flip Loans", "Bridge Loans", "Construction Loans", "Commercial Real Estate Loans"],
+        "telephone": "+1-801-810-4663",
+        "email": "loans@sierrawestfunding.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "6905 S. 1300 E. #331",
+          "addressLocality": "Cottonwood Heights",
+          "addressRegion": "UT",
+          "postalCode": "84047",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.6163,
+          "longitude": -111.8569
+        },
+        "priceRange": "12% interest / 2 points",
+        "currenciesAccepted": "USD",
+        "paymentAccepted": "Wire Transfer, Check",
+        "knowsAbout": ["Hard Money Loans", "Fix and Flip Investing", "Real Estate Investment", "Private Lending", "Bridge Loans", "BRRRR Strategy", "Non-Owner Occupied Lending"],
+        "slogan": "Your trusted partner in real estate investments."
+      },
+      {
+        "@type": "Person",
+        "@id": "https://swcfund.com/#matt-strong",
+        "name": "Matt Strong",
+        "jobTitle": "Owner",
+        "worksFor": { "@id": "https://swcfund.com/#organization" },
+        "description": "Owner of Sierra West Funding. Has funded over 1,600 transactions and $480 million in volume since 2011. Purchased and resold over 440 single-family homes in Utah. Active Real Estate Broker and Loan Officer in Utah.",
+        "alumniOf": [
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "University of Utah",
+            "description": "Masters of Real Estate Development (MRED), 2015"
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "University of Utah",
+            "description": "Bachelor of Science in Finance, Real Estate emphasis, 2001"
+          }
+        ],
+        "knowsAbout": ["Hard Money Lending", "Fix and Flip", "Real Estate Development", "Real Estate Brokerage", "Value-Add Real Estate Investing"]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://swcfund.com/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What kinds of properties do you lend on?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Residential non-owner-occupant fix-and-flips, remodels, and rehab projects. New construction. Commercial. Vacant land. Multi-unit properties."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you lend on owner-occupied properties?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. We only lend on non-owner-occupied investment properties."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which states do you lend in?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We primarily lend in Utah."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are your rates and terms?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Our typical rate is 12% with 2 points. We don't require monthly payments — interest accrues and is paid at payoff. Terms are typically 6 to 12 months."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How fast can you fund a deal?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We've closed loans in as little as 48 hours when title and appraisal can move quickly. Most deals fund within 5 to 10 business days."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you check credit?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Our approval is primarily asset-based. We focus on the deal — purchase price, rehab budget, and ARV — not your credit score or personal financial history."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
 </body>
 </html>
