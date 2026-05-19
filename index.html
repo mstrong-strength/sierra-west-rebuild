@@ -160,6 +160,24 @@
     }
     .utility-left a:hover { opacity: 0.8; }
 
+    .utility-right {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .utility-follow {
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.75);
+    }
+
+    .utility-right a {
+      color: #fff;
+      font-size: 1rem;
+      transition: opacity var(--transition);
+    }
+    .utility-right a:hover { opacity: 0.8; }
+
     /* ==========================================================
        2. STICKY HEADER
        ========================================================== */
@@ -778,6 +796,12 @@
       <div class="utility-left">
         <a href="tel:8018104663"><i class="fas fa-phone"></i> (801) 810-4663</a>
         <a href="mailto:loans@sierrawestfunding.com"><i class="fas fa-envelope"></i> <span class="utility-email-text">loans@sierrawestfunding.com</span></a>
+      </div>
+      <div class="utility-right">
+        <span class="utility-follow">Follow me @</span>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
       </div>
     </div>
   </div>
